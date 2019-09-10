@@ -3,3 +3,5 @@ OK -> $5 * 2 = $10
 Make "amount" private
 OK -> Dollar side-effects?
 Money rounding?
+-> equals()
+hashCode()
