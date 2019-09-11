@@ -3,6 +3,7 @@ package io.github.jorgeviana.money;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class MoneyTest {
 
@@ -15,5 +16,10 @@ class MoneyTest {
 
         product = five.times(3);
         assertEquals(15, product.amount);
+    }
+
+    @Test
+    void testEquality() {
+        assertTrue(new Dollar(5).equals(new Dollar(5)));
     }
 }
