@@ -1,6 +1,6 @@
 package io.github.jorgeviana.money;
 
-abstract class Money {
+class Money {
     protected int amount;
     protected String currency;
 
@@ -12,7 +12,9 @@ abstract class Money {
         return new Franc(amount, "CHF");
     }
 
-    abstract Money times(int amount);
+    Money times(int amount) {
+        return null;
+    }
 
     public Money(int amount, String currency) {
         this.amount = amount;
@@ -28,5 +30,9 @@ abstract class Money {
         Money money = (Money) other;
         return amount == money.amount
                 && getClass().equals(money.getClass());
+    }
+
+    public String toString() {
+        return amount + " " + currency;
     }
 }
