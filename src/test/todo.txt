@@ -10,7 +10,7 @@ Equal object
 OK -> 5 CHF * 2 = 10 CHF
 Dollar/Franc duplication
 OK -> Common equals
--> Common times
+OK -> Common times
 OK -> Compare Francs with Dollars
 OK -> Introduce Currency?
 Delete testFrancMultiplication?
