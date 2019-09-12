@@ -1,4 +1,6 @@
 $5 + 10 CHF = $10 if rate is 2:1
+-> $5 + $5 = $10
+
 OK -> $5 * 2 = $10
 OK Make "amount" private
 OK -> Dollar side-effects?
