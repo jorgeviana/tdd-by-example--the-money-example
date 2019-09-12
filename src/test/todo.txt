@@ -11,4 +11,4 @@ OK -> 5 CHF * 2 = 10 CHF
 Dollar/Franc duplication
 OK -> Common equals
 Common times
-Compare Francs with Dollars
+-> Compare Francs with Dollars
