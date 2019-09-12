@@ -1,11 +1,13 @@
 package io.github.jorgeviana.money;
 
-class Money {
+abstract class Money {
     protected int amount;
 
     static Dollar dollar(int amount) {
         return new Dollar(amount);
     }
+
+    abstract Money times(int amount);
 
     @Override
     public boolean equals(Object other) {
