@@ -12,7 +12,7 @@ class Dollar extends Money {
 
     @Override
     public boolean equals(Object other) {
-        Dollar dollar = (Dollar) other;
+        Money dollar = (Dollar) other;
         return amount == dollar.amount;
     }
 }
