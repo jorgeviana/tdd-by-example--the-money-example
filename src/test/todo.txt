@@ -12,5 +12,5 @@ Dollar/Franc duplication
 OK -> Common equals
 Common times
 OK -> Compare Francs with Dollars
--> Introduce Currency?
+OK -> Introduce Currency?
 Delete testFrancMultiplication?
