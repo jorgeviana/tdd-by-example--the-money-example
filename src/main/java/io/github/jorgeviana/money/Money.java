@@ -29,7 +29,7 @@ class Money {
     public boolean equals(Object other) {
         Money money = (Money) other;
         return amount == money.amount
-                && getClass().equals(money.getClass());
+                && currency().equals(money.currency());
     }
 
     public String toString() {
