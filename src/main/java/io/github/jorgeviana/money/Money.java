@@ -12,6 +12,7 @@ abstract class Money {
     }
 
     abstract Money times(int amount);
+    abstract String currency();
 
     @Override
     public boolean equals(Object other) {
