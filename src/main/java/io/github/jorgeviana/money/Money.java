@@ -14,6 +14,11 @@ abstract class Money {
 
     abstract Money times(int amount);
 
+    public Money(int amount, String currency) {
+        this.amount = amount;
+        this.currency = currency;
+    }
+
     String currency() {
         return currency;
     }
