@@ -13,4 +13,4 @@ OK -> Common equals
 OK -> Common times
 OK -> Compare Francs with Dollars
 OK -> Introduce Currency?
-Delete testFrancMultiplication?
+OK -> Delete testFrancMultiplication?
