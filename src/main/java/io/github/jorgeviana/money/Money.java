@@ -9,7 +9,7 @@ abstract class Money {
     }
 
     public static Money franc(int amount) {
-        return new Franc(amount);
+        return new Franc(amount, null);
     }
 
     abstract Money times(int amount);
