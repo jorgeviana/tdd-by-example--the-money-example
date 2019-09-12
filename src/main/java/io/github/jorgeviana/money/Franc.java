@@ -2,8 +2,6 @@ package io.github.jorgeviana.money;
 
 class Franc extends Money {
 
-    private String currency;
-
     public Franc(int amount) {
         this.amount = amount;
         currency = "CHF";
@@ -11,9 +9,5 @@ class Franc extends Money {
 
     public Money times(int multiplier) {
         return new Franc(amount * multiplier);
-    }
-
-    String currency() {
-        return currency;
     }
 }
