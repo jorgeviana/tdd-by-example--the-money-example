@@ -1,7 +1,6 @@
 package io.github.jorgeviana.money;
 
-class Franc {
-    private int amount;
+class Franc extends Money {
 
     public Franc(int amount) {
         this.amount = amount;
@@ -13,7 +12,7 @@ class Franc {
 
     @Override
     public boolean equals(Object other) {
-        Franc dollar = (Franc) other;
-        return amount == dollar.amount;
+        Money money = (Money) other;
+        return amount == money.amount;
     }
 }
